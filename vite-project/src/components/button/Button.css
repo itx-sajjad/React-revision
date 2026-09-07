@@ -1,4 +1,11 @@
-.btn{
+.btn {
     background-color: aqua;
-    color: #131530e8;
+    color: hsla(236, 43%, 13%, 0.91);
+    min-width: 120px;
+    padding: 0.7rem 1.2rem;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    font-size: 1rem;
+    margin: 0.25rem;
 }
