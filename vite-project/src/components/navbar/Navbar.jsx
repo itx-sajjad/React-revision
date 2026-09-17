@@ -1,7 +1,8 @@
-import './Navbar.css'
-export default function Navbar (){
-    return(
-        <>
+import React from 'react'
+
+const Navbar = () => {
+  return (
+    <>
         <div className='nav'>
             <ul>
         <li>about</li>
@@ -10,5 +11,7 @@ export default function Navbar (){
         </ul>
         </div>
         </>
-    )
+  )
 }
+
+export default Navbar
