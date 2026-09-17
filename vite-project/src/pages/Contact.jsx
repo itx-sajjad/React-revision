@@ -5,3 +5,5 @@ export const Contact = () => {
     <div>Wellcome to Contact</div>
   )
 }
+
+export default Contact

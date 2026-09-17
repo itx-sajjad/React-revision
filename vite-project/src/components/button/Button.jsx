@@ -1,9 +1,9 @@
-import './Button.css'
+import React from 'react'
 
-export default function Button({ title, onClick }) {
-    return (
-        <button className="btn" onClick={onClick}>
-            {title}
-        </button>
-    )
+const Button = ({onClick,title}) => {
+  return (
+    <button onClick={onClick}>{title}</button>
+  )
 }
+
+export default Button
